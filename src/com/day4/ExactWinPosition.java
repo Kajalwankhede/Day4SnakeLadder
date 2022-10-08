@@ -1,6 +1,7 @@
 package com.day4;
 
-public class ExactWinPosition {    public static void main(String[] args) {
+public class ExactWinPosition {
+    public static void main(String[] args) {
     System.out.println("\n**********Welcome to snake and ladder************");
     int ladder = 1, player = 0,positionCheck=0,snake = 1;
     int max = 2, min = 0, count = 0, positionMax = 6, positionMin = 1;
