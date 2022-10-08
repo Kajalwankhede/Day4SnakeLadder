@@ -26,6 +26,6 @@ public class CheckPlayOrNot {
         } else if ((randomCheck == 0)) {
             int positionCheck = (int) (Math.random() * (6 - 2 + 1) + 2);
             System.out.println("\nyou got : " + positionCheck);
-            System.out.println("No play : you need 1 to start the game try again");}
+            System.out.println("No play : you are at same position.");}
     }
 }

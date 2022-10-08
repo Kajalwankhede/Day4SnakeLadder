@@ -14,7 +14,7 @@ public class ExactWinPosition {
             System.out.println("you got the : " + positionCheck);
             ladder = player + positionCheck;
             if (ladder >100){
-                System.out.println("Your position is above 100 to WIN ,Stay in  previous position till you get 100");
+                System.out.println("Your position is above 100 to WIN ,Stay in previous position till you get 100");
                 ladder = previousPosition;}
             player = ladder;
             System.out.println("Ladder : now your position has gone to : " + player);
@@ -26,7 +26,7 @@ public class ExactWinPosition {
             System.out.println("you got : " + positionCheck);
             snake = player - positionCheck;
             if (snake <= 1)
-                snake = 1; // to change -ve to +ve
+                snake = 1;
             player = snake;
             System.out.println("snake :  Now your position has gone down to : " + player);
         } else if ((randomCheck == 0)) {
