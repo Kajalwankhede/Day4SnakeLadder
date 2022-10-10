@@ -48,7 +48,7 @@ public class SnakeLadder {
                     count = 2;
                 } else if ((count == 0) && (positionCheck != 1)) {
                     System.out.println("you got : " + positionCheck);
-                    System.out.println("No play for " + playerName + " you need 1 to start the game try again");
+                    System.out.println("No play for " + playerName + " You need 1 to start the game try again");
                 }
             }
         }
