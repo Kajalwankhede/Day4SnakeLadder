@@ -8,7 +8,6 @@ public class CheckSnakeOrLadder {
         int diceRoll = 0;
         int SnakeArray[] = { 54, 90, 99 };
         int LadderArray[] = { 9, 40, 67 };
-
         System.out.println("Welcome to the Game of SNAKE & LADDER");
         System.out.println("Starting Position of the Player = 0");
 
