@@ -62,10 +62,10 @@ public class RepeatTillWinPosition {
                 playerPosition = 86;
                 System.out.println("YOU GOT A LADDER.");
                 System.out.println("You are at " + playerPosition + " position.");
-
             } else if (playerPosition > 100) {
                 playerPosition = playerPosition - diceRoll;
                 System.out.println("YOU CAN'T JUMP, YOU MUST LAND ON A 100.");
+
             }
         }
         while (playerPosition != Winning_Position && playerPosition <= Winning_Position);
