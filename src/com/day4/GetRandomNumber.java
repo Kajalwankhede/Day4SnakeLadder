@@ -9,7 +9,6 @@ public class GetRandomNumber {
         GetRandomNumber p=new GetRandomNumber();
         int StartingPosition = 0;
         System.out.println("Player Position :" +StartingPosition);
-        StartingPosition++;
         Random random= new Random();
         int DieRoll=(random.nextInt(6)+1);
         System.out.println("The Player rolls die & get number 1 to 6: "+DieRoll);

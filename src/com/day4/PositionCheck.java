@@ -7,7 +7,6 @@ public class PositionCheck {
     {
         System.out.println("**************Welcome To Snake And Ladder***************.");
     }
-
     public static void main(String[] args) {
         PositionCheck p=new PositionCheck();
         int StartingPosition=0;
