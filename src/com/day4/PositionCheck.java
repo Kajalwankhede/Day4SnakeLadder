@@ -11,7 +11,7 @@ public class PositionCheck {
         PositionCheck p=new PositionCheck();
         int StartingPosition=0;
         Random random= new Random();
-        System.out.println("Starting Position of Single Player is: "+StartingPosition);
+        System.out.println("Starting Position of Single Player is : "+StartingPosition);
         int DieRoll=(random.nextInt(6)+1);
         System.out.println("The Player rolls die & get number: "+DieRoll);
     }
