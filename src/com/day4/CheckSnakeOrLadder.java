@@ -24,7 +24,7 @@ public class CheckSnakeOrLadder
             TotalNoOfDiceRoll++;
 
             if (playerPosition == 100) {
-                System.out.println("CONGRATULATION!! YOU WON THE GAME.");
+                System.out.println("CONGRATULATION!!!!! YOU WON THE GAME.");
             }
             if (diceRoll == 0) {
                 playerPosition = playerPosition - diceRoll;
